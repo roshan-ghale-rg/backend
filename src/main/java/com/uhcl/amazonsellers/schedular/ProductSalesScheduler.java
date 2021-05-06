@@ -17,7 +17,7 @@ import java.util.List;
 @Configuration
 public class ProductSalesScheduler {
 
-    private static Logger log = LoggerFactory.getLogger(EmailScheduler.class);
+    private static Logger log = LoggerFactory.getLogger(ProductSalesScheduler.class);
 
     @Autowired
     private ProductService productService;
